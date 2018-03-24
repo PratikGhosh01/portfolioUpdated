@@ -1,0 +1,131 @@
+:root {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fedc3d;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.banner .card {
+    background: #2c2c2c;
+    border: 1px solid #2c2c2c;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.banner .card .heading {
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1vh;
+    padding: 2vw;
+}
+
+
+.row {
+   
+    
+    align-items: center;
+    margin-top: 1vh;
+}
+.heading1 {
+   color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-left: 1vw;
+    padding: 1vw;
+}
+.row .my-image {
+    
+    border: 1px solid #2c2c2c;
+    border-radius: 30px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    width: 25vw;
+    margin-left: 5vh;
+    
+
+}
+.row .container2 {
+
+    margin-top: : 1vh;
+    margin-bottom: 4vh; 
+    background: #312c32;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+
+}
+
+.row .container3 {
+    margin-top: : 1vh;
+    margin-bottom: 4vh; 
+    background: #0F1626;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+
+}
+.row .container4 {
+    margin-top: : 1vh;
+    margin-bottom: 4vh; 
+    background: #173e43;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+
+}
+.row .container5 {
+    margin-top: : 1vh;
+    margin-bottom: 4vh; 
+    background: #286DA8;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+
+}
+@media only screen and (max-width: 720px) {
+    .row {
+        flex-direction: column;
+    }
+    .row .image {
+        order: 1;
+        
+    }
+    .row .my-image {
+        width: 60vw;
+         margin-left: 9vh;
+        
+    }
+}
+
+.paragraph {
+
+    color: white;
+    font-family: "Istok Web", sans-serif;
+    padding: 1vw 1vw 1vw 1vw;
+    margin-left: 1vw;
+}
+
+.icon-group {
+    margin-top: 5vh;
+}
+
+.icon-group .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 25px;
+    float: right;
+}
